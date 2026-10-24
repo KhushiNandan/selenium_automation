@@ -20,7 +20,7 @@ public class LocalLoginTest {
 
         driver = new ChromeDriver(options);
 
-        String page = new File("webpage/login.html")
+        String page = new File("webapp/login.html")
                 .getAbsoluteFile()
                 .toURI()
                 .toString();
